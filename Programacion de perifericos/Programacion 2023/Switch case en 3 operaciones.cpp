@@ -11,7 +11,7 @@ int main(){
 	scanf("%d", &op);
 	
 	switch(op){
-		case 1: res=t*5;
+		case 1: res=t/5;
 			break;
 		
 		case 2:{
@@ -21,6 +21,11 @@ int main(){
 		case 3:
 		case 4:{
 			res=6*t/2;
+			break;
+		}
+		//default sirve para por si no seleccionas alguno de los casos haga esto
+		default:{
+			printf("No ingresaste un numero correcto\n");
 			break;
 		}
 	}
